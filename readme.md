@@ -3,7 +3,7 @@
 </h4>
 
 <h1 align="center">
-    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-1.jpg" />
+    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-2.jpg" />
 </h1>
 
 - Projeto de um site institucional dos meus projetos.
@@ -20,7 +20,7 @@
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-1.jpg" width="400px"/>
+    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-2.jpg" width="400px"/>
 </p>
 
 - Mobile
