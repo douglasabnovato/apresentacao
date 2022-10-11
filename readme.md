@@ -1,31 +1,34 @@
-### StartSe
+<h4 align="center"> 
+	🚧 Meu Portfólio 🚀
+</h4>
 
-Módulos do Bootcamp Tech Academy - Turma 1
+<h1 align="center">
+    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-1.jpg" />
+</h1>
 
-- [x] Módulo I - introdução sistemas e aplicações
-- [x] Módulo II - linguagens de programação
-- [x] Módulo III - aprendendo html e elementos
-- [x] Módulo IV - aprendendo css
-- [x] Módulo V - elementos de página
-- [x] Módulo VI - elementos de página e git
-- [x] Módulo VII - javascript
-- [x] Módulo VIII - html semântico e flexbox
-- [x] Módulo IX - programação orientada a objetos
-- [x] Módulo X - nodejs
-- [x] Módulo XI - sql
-- [ ] Módulo XII - hackaton
+- Projeto de um site institucional dos meus projetos.
 
-Projetos do Bootcamp Tech Academy - Turma 1
+#### Requisitos
 
-- [x] portfolio: live coding 4a semana
-- [x] coffee: desafio 4a semana
-- [x] startse: live coding 5a semana
-- [x] mario-game: live coding 7a semana
-- [x] pokedex: live coding 9a semana
-- [ ] sistema-financiamento: prática 9a semana
+- [ ] design personalizado
+- [ ] responsividade
+- [ ] favicon
+- [ ] páginas para conteúdos
 
-Trilhas para serem revisadas
+#### Telas
 
-- poo na prática
-- nodejs na prática
-- sql
+- Desktop
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-1.jpg" width="400px"/>
+</p>
+
+- Mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+    <img alt="Portfólio" title="#Portfólio" src="./.github/mobile-1.jpg" height="400px"/>
+</p>
+
+#### Inspirações para aperfeiçoamentos  
+
+- Funcionalidades de um site bom
