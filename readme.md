@@ -11,8 +11,8 @@
 #### Requisitos
 
 - [ ] design personalizado
-- [ ] responsividade
-- [ ] favicon
+- [x] responsividade
+- [x] favicon
 - [ ] páginas para conteúdos
 
 #### Telas
