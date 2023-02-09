@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 62%;
     font-family: 'Poppins', 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
@@ -24,10 +24,10 @@ img {
 
 p {
     font-size: 1.4rem;
-    margin-top: 5px;
+    margin-block-start: 2rem;
     line-height: 2.5rem;
     font-weight: 200;
-    letter-spacing: 0.05rem;
+    letter-spacing: .05rem;
 }
 
 .container {
@@ -42,15 +42,15 @@ p {
     font-size: 4rem;
     font-weight: 500;
     color: black;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    margin-block-end: 1rem;
+    margin-block-start: .5rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-align: center;
 }
 
 #presentation {
-    background-image: url(./assets/background.jpeg);
+    background-image: url(./assets/coffee-0.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -72,24 +72,28 @@ p {
 }
 
 #presentation h1:nth-child(2) {
+    animation: text_reveal_name .5s ease forwards;
     animation-delay: 1.8s;
 }
 
 #presentation h1:nth-child(3) {
-    animation: text_reveal_name .5s ease forwards;
     animation-delay: 2.8s;
+}
+
+#presentation h1:nth-child(4) {
+    animation-delay: 3.8s;
 }
 
 #presentation .cta {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     color: gold;
     background-color: transparent;
-    border: 2px solid gold;
+    border: .2rem solid gold;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin-top: 20px;
+    margin-block-start: 2rem;
     transition: .5s ease;
     transition-property: background-color, color;
 
@@ -124,6 +128,10 @@ p {
     animation-delay: 2.5s;
 }
 
+#presentation h1:nth-child(4) span {
+    animation-delay: 3.5s;
+}
+
 #presentation::after {
     content: '';
     position: absolute;
@@ -136,25 +144,57 @@ p {
     z-index: -1;
 }
 
-#portfolio .portfolio {
+#coffee .coffee {
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
-    padding: 100px 0;
 }
 
-#portfolio .portfolio-header h1 {
-    margin-bottom: 50px;
+.section-title-hover {
+    --b: 0.1em;
+    --c: #8b5a3d;
+    color: #0000;
+    padding-block: var(--b);
+    background:
+        linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p, 0%)/var(--_p, 0%) var(--b) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: .3s var(--_s, 0s) linear, background-size .3s calc(.3s - var(--_s, 0s));
 }
 
-#portfolio .all-projects {
+.section-title-hover:hover {
+    --_p: 100%;
+    --_s: .3s;
+}
+
+#coffee .coffee-header {
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    margin-block-start: 4rem;
+    margin-block-end: 4rem;
+}
+
+#coffee .coffee-header h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 .1em;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+#coffee .all-coffee-beans {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#portfolio .project-item {
+#coffee .coffee-bean-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,37 +205,60 @@ p {
     border-radius: 10px;
 }
 
-#portfolio .project-info {
-    padding: 30px;
+#coffee .coffee-bean-info {
+    padding: 3rem;
     flex-basis: 50%;
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #5a10b5 0%, #002349 100%);
+    background-image: linear-gradient(60deg, #006400 0%, #002349 100%);
     color: white;
 }
 
-#portfolio .project-info h1 {
+#coffee .limonada-bean-info {
+    padding: 3rem;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #e9e519b6 0%, #094900 100%);
+    color: white;
+}
+
+#coffee .coffee-bean-info h1 {
     font-size: 4rem;
     font-weight: 500;
 }
 
-#portfolio .project-info h2 {
-    font-size: 1.8rem;
+#coffee .limonada-bean-info h1 {
+    font-size: 4rem;
     font-weight: 500;
-    margin-top: 10px;
 }
 
-#portfolio .project-img {
+#coffee .coffee-bean-info h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-block-start: 1rem;
+}
+
+#coffee .limonada-bean-info h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-block-start: 1rem;
+}
+
+#coffee .coffee-bean-img {
     flex-basis: 50%;
-    height: 300px;
+    height: 30rem;
     overflow: hidden;
     position: relative;
 }
 
-#portfolio .project-img:after {
+#coffee .coffee-bean-img:after {
     content: '';
     position: absolute;
     left: 0;
@@ -206,12 +269,60 @@ p {
     opacity: 0.7;
 }
 
-#portfolio .project-img img {
+#coffee .coffee-bean-img img {
     transition: 0.5s ease transform;
 }
 
-#portfolio .project-item:hover .project-img img {
+#coffee .coffee-bean-item:hover .coffee-bean-img img {
     transform: scale(1.1);
+}
+
+.coffee-footer {
+    position: relative;
+    font-family: monospace;
+    color: #8b5a3d;
+    font-size: 4em;
+    filter: contrast(15);
+    text-align: center;
+    margin-block-start: 6.5rem;
+}
+
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: switch 8s infinite ease-in-out;
+    min-width: 100%;
+    margin: auto;
+}
+
+.word:nth-child(1) {
+    animation-delay: -7s;
+}
+
+.word:nth-child(2) {
+    animation-delay: -6s;
+}
+
+.word:nth-child(3) {
+    animation-delay: -5s;
+}
+
+@keyframes switch {
+
+    0%,
+    5%,
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+
+    50%,
+    80% {
+        filter: blur(18rem);
+        opacity: 0;
+    }
 }
 
 @keyframes text_reveal {
@@ -223,42 +334,50 @@ p {
 @keyframes text_reveal_name {
     100% {
         color: gold;
-        font-weight: 500px;
+        font-weight: 50rem;
     }
 }
 
 @keyframes text_reveal_box {
     50% {
         width: 100%;
-        left: 0;
+        inline-start: 0;
     }
 
     100% {
         width: 0;
-        left: 100%
+        inline-start: 100%
     }
 }
 
-@media only screen and (min-width: 768px) {
-    
-    #portfolio .project-item {
+@media only screen and (min-width: 76.8rem) {
+
+    #coffee .coffee-bean-item {
         flex-direction: row;
-        height: 400px;
+        height: 40rem;
         margin: 0;
         width: 100%;
         border-radius: 0;
     }
 
-    #portfolio .all-projects .project-info {
+    #coffee .all-coffee-beans .limonada-bean-info {
         height: 100%
     }
 
-    #portfolio .all-projects .project-img {
+    #coffee .all-coffee-beans .coffee-bean-img {
         height: 100%
     }
 
-    #portfolio .project-item:nth-child(even) {
+    #coffee .coffee-bean-item:nth-child(even) {
         flex-direction: row-reverse;
+    }
+
+}
+
+@media only screen and (max-width: 76.8rem) {
+
+    #presentation .container header{
+        margin-inline-start: 2rem;
     }
 
 }

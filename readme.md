@@ -1,42 +1,39 @@
-<h4 align="center"> 
-	🚧 Meu Portfólio 🚀
-</h4>
+
+<h3 align="center"> 
+	🚧 Coffee🚀
+</h3> 
 
 <h1 align="center">
-    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-2.jpg" />
-</h1> 
+    <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/1-presentation.jpg" />
+</h1>
 
-## 💻🔖 Organização do projeto 
+- projeto desafio da aula ao vivo - 4a semana
+- [documentação do css](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+- tornar aplicação original: tema de café para a página
+- [x] adicionar um contexto ao site: café
+- [x] explorar animações em css: roda pé
+- [x] adicionar seção: rodapé
+- [x] refatorar com tags semânticas
+- [x] organizar css: o arquivo está em ordem de elementos html
+- [x] usar material css-tricks: título
+- [x] usar mais imagens: quatro img
+- [x] inserir textos de verdade: receitas
+- [x] adicionar roda pé: frase animação css
+- [x] centralizar verticalmente header coffee
+- [x] centralizar verticalmente footer coffee
+- [x] usar material web.dev: internacionalização
+- [x] usar material web.dev: unidade de medida fluída
+- [x] margin left no presentation em modo mobile
+- [x] adicionado seção limonada
 
-Organizamos as branches para serem guardadas as versões do projeto
-- main: em produção
-- developer: em desenvolvimento das tarefas
-- v-dev-projetos: primeira versão do projeto
-- v-dev-coffee: segunda versão do projeto
-
-- Projeto de um site institucional dos meus projetos.
-
-#### Requisitos
-
-- [ ] design personalizado
-- [x] responsividade
-- [x] favicon
-- [ ] páginas para conteúdos
-
-#### Telas
-
-- Desktop
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-2.jpg" width="400px"/>
+- nossa página
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">  
+    <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/1-presentation.jpg" width="400px"/>
+    <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/2-coffee.jpg" width="400px"/>
+    <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/3-presentation.jpg" height="400px"/>
+    <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/4-footer.jpg" height="400px"/>
 </p>
 
-- Mobile
+--- 
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-    <img alt="Portfólio" title="#Portfólio" src="./.github/mobile-1.jpg" height="400px"/>
-</p>
-
-#### Inspirações para aperfeiçoamentos  
-
-- Funcionalidades de um site bom
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
