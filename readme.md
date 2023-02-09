@@ -18,7 +18,7 @@ Organizamos as branches para serem guardadas as versões do projeto
 
 #### Requisitos
 
-- [ ] design personalizado
+- [ ] design personalizado: criar componentização 
 - [x] responsividade
 - [x] favicon
 - [ ] páginas para conteúdos
