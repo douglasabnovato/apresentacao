@@ -14,7 +14,9 @@ Organizamos as branches para serem guardadas as versões do projeto
 - v-dev-projetos: primeira versão do projeto
 - v-dev-coffee: segunda versão do projeto
 
-- Projeto de um site institucional dos meus projetos.
+## 💻 sobre o projeto 
+
+- Projeto de um site institucional de projetos.
 
 #### Requisitos
 
