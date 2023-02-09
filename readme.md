@@ -4,7 +4,15 @@
 
 <h1 align="center">
     <img alt="Portfólio" title="#Portfólio" src="./.github/desktop-2.jpg" />
-</h1>
+</h1> 
+
+## 💻🔖 Organização do projeto 
+
+Organizamos as branches para serem guardadas as versões do projeto
+- main: em produção
+- developer: em desenvolvimento das tarefas
+- v-dev-projetos: primeira versão do projeto
+- v-dev-coffee: segunda versão do projeto
 
 - Projeto de um site institucional dos meus projetos.
 
