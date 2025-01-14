@@ -137,10 +137,12 @@ p {
 }
 
 #description {
+  
+
   font-family: "Space Mono", monospace;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 620px;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -148,25 +150,18 @@ p {
   justify-content: center;
   padding: 32px;
   margin: 60px auto;
-  background-color: #ddd9d8;
+  background-color: #fbd4cf;
   border: 1px solid #eee;
-  box-shadow: 10px 12px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
+
 }
 
 #description .description {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px 0;
-}
+  padding: 100px 0;
 
-#description .description h1 {
-  padding: 12px;
-}
-
-#description .description h2 {
-  padding-bottom: 22px;
-  font-size: 18px;
 }
 
 #description ol {
@@ -186,7 +181,6 @@ p {
   font-size: 16px;
   line-height: 20px;
 }
-
 #description li:before {
   content: "";
   display: block;

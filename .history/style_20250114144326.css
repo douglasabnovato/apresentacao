@@ -137,36 +137,20 @@ p {
 }
 
 #description {
-  font-family: "Space Mono", monospace;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
   min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px;
-  margin: 60px auto;
-  background-color: #ddd9d8;
-  border: 1px solid #eee;
-  box-shadow: 10px 12px 24px rgba(0, 0, 0, 0.06);
+  padding: 22px;
+  background-color: #fbd4cf;
 }
 
 #description .description {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px 0;
-}
-
-#description .description h1 {
-  padding: 12px;
-}
-
-#description .description h2 {
-  padding-bottom: 22px;
-  font-size: 18px;
+  padding: 100px 0;
 }
 
 #description ol {
@@ -175,7 +159,7 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
-  letter-spacing: -0.25px;
+  letter-spacing: -1.25px;
 }
 
 #description li {
@@ -186,7 +170,6 @@ p {
   font-size: 16px;
   line-height: 20px;
 }
-
 #description li:before {
   content: "";
   display: block;

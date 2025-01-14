@@ -157,16 +157,7 @@ p {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px 0;
-}
-
-#description .description h1 {
-  padding: 12px;
-}
-
-#description .description h2 {
-  padding-bottom: 22px;
-  font-size: 18px;
+  padding: 100px 0;
 }
 
 #description ol {
@@ -186,7 +177,6 @@ p {
   font-size: 16px;
   line-height: 20px;
 }
-
 #description li:before {
   content: "";
   display: block;
