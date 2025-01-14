@@ -49,6 +49,33 @@ p {
   text-align: center;
 }
 
+.back-to-top {
+  cursor: pointer;
+
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+
+  line-height: 0;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: 0.3s;
+  transform: translateY(100%);
+
+  z-index: 10;
+  color: #820909;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #presentation {
   background-image: url(./assets/multi-go-ap-goiania.jpeg);
   background-size: cover;
@@ -137,18 +164,16 @@ p {
 }
 
 #description {
-  font-family: "Space Mono", monospace;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  min-height: 100vh;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
   padding: 32px;
   margin: 60px auto;
   background-color: #ddd9d8;
+  font-family: "Space Mono", monospace;
   border: 1px solid #eee;
   box-shadow: 10px 12px 24px rgba(0, 0, 0, 0.06);
 }
@@ -185,6 +210,12 @@ p {
   position: relative;
   font-size: 16px;
   line-height: 20px;
+}
+
+#description li:hover {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #description li:before {
@@ -247,7 +278,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #5a10b5 0%, #002349 100%);
+  background-image: linear-gradient(60deg, #a72327 0%, #610609e9 100%);
   color: white;
 }
 

@@ -25,6 +25,7 @@ Organizamos as branches para serem guardadas as versões do projeto
 - [x] responsividade
 - [x] favicon
 - [ ] páginas para conteúdos
+- [ ] botão topo: aperfeiçoar círculo
 
 #### Seções
 
@@ -35,8 +36,10 @@ Organizamos as branches para serem guardadas as versões do projeto
 
 #### Design
 
-- [ ] Cores dos cards 
-- [ ] Imagens dos cards  
+- [x] Imagens dos cards  
+- [ ] Colors:
+- #8E191C 
+- #E30613
 
 #### Telas
 
