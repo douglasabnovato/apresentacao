@@ -31,8 +31,12 @@ Organizamos as branches para serem guardadas as versões do projeto
 
 - [x] presentation
 - [ ] description
-- [ ] portfolio
 - [ ] projects
+
+#### 💻Copies
+
+- [x] Projeto 1
+- [ ] Projeto 2
 
 #### 💻Design
 

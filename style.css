@@ -76,14 +76,14 @@ p {
   transform: translateY(0);
 }
 
-#presentation {
-  background-image: url(./assets/multi-go-ap-goiania.png);
+#presentation { 
+  background-image: url(../assets/multi-go-ap-goiania.png);
   background-size: cover;
-  background-position: center center;
+  background-position: center center; 
   position: relative;
   z-index: 1;
   opacity: 0.75;
-}
+} 
 
 #presentation h1 {
   display: block;
