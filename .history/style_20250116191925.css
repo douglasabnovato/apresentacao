@@ -357,16 +357,6 @@ footer {
   font-weight: bold;
 }
 
-footer p{ 
-  color: #610609e9;
-}
-
-footer p a { 
-  color: #520407e9;  
-  text-decoration: none;
-  font-weight: bold;
-}
-
 @keyframes text_reveal {
   100% {
     color: white;

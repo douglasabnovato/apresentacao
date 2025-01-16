@@ -359,12 +359,12 @@ footer {
 
 footer p{ 
   color: #610609e9;
+  font-weight: bold;
 }
 
 footer p a { 
   color: #520407e9;  
   text-decoration: none;
-  font-weight: bold;
 }
 
 @keyframes text_reveal {

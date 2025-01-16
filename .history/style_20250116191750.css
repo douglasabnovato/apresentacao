@@ -349,22 +349,13 @@ p {
   transform: scale(1.1);
 }
 
+
+
 footer {
   text-align: center;
   padding: 120px 12px;
   background-color: rgba(169, 164, 164, 0.151);
-  color: #610609e9;
-  font-weight: bold;
-}
-
-footer p{ 
-  color: #610609e9;
-}
-
-footer p a { 
-  color: #520407e9;  
-  text-decoration: none;
-  font-weight: bold;
+  color: white;
 }
 
 @keyframes text_reveal {
