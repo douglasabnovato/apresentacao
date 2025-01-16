@@ -312,9 +312,14 @@ p {
   color: white;
 }
 
+#portfolio .project-item .project-info .header-portifolio {
+  color: yellow;
+  text-align: left;
+  justify-content: left;
+}
 
 #portfolio .project-item .project-info h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 

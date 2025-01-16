@@ -312,6 +312,9 @@ p {
   color: white;
 }
 
+#portfolio .project-item .project-info .header-portifolio {
+  color: yellow;
+}
 
 #portfolio .project-item .project-info h1 {
   font-size: 3.2rem;

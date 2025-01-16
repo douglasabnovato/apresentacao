@@ -312,15 +312,15 @@ p {
   color: white;
 }
 
-
 #portfolio .project-item .project-info h1 {
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: 500;
 }
 
 #portfolio .project-item .project-info h2 {
   font-size: 1.8rem;
-  font-weight: 500; 
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 #portfolio .project-img {
@@ -341,7 +341,7 @@ p {
   opacity: 0.7;
 }
 
-#portfolio .project-item .project-img img {
+#portfolio .project-item.project-img img {
   transition: 0.5s ease transform;
 }
 
