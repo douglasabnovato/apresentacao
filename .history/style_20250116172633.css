@@ -282,13 +282,10 @@ p {
   flex-direction: column;
 }
 
-#portfolio .all-projects .portfolio-title {
-  flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 220px 14px 62px 14px;
+.all-projects .portfolio{
+  padding: 80px 82px;
 }
- 
+
 #portfolio .project-item {
   display: flex;
   align-items: center;

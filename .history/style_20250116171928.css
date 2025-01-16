@@ -271,10 +271,6 @@ p {
   padding: 20px 0;
 } 
 
-#portfolio .portfolio h2{
-  text-align: center;
-} 
-
 #portfolio .all-projects {
   display: flex;
   align-items: center;
@@ -282,13 +278,6 @@ p {
   flex-direction: column;
 }
 
-#portfolio .all-projects .portfolio-title {
-  flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 220px 14px 62px 14px;
-}
- 
 #portfolio .project-item {
   display: flex;
   align-items: center;

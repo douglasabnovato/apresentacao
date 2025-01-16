@@ -30,6 +30,25 @@ p {
   letter-spacing: 0.05rem;
 }
 
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
 .back-to-top {
   cursor: pointer;
 
@@ -56,35 +75,6 @@ p {
   opacity: 1;
   transform: translateY(0);
 }
- 
-/**
-* Especiais
-*
-*/
-
-.container {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-title {
-  font-size: 4rem;
-  font-weight: 500;
-  color: black;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  text-align: center;
-}
-
-/**
-* presentation
-*
-*/
 
 #presentation { 
   background-image: url(./assets/multI-go-ap-goiania.png);
@@ -173,11 +163,6 @@ p {
   z-index: -1;
 }
 
-/**
-* description
-*
-*/
-
 #description {
   display: flex;
   align-items: center;
@@ -211,6 +196,7 @@ p {
 
 #description ol {
   padding-left: 50px;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
@@ -255,25 +241,17 @@ p {
   border-color: #2378d5;
 }
 
-/**
-* portfolio
-*
-*/
-
-#portfolio { 
-  padding: 60px 0;
-} 
-
 #portfolio .portfolio {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 0;
-} 
+  padding: 100px 0;
+}
 
-#portfolio .portfolio h2{
-  text-align: center;
-} 
+#portfolio .portfolio header h1 {
+  margin-bottom: 50px;
+}
+ 
 
 #portfolio .all-projects {
   display: flex;
@@ -282,13 +260,6 @@ p {
   flex-direction: column;
 }
 
-#portfolio .all-projects .portfolio-title {
-  flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 220px 14px 62px 14px;
-}
- 
 #portfolio .project-item {
   display: flex;
   align-items: center;

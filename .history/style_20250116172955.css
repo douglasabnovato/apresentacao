@@ -283,10 +283,10 @@ p {
 }
 
 #portfolio .all-projects .portfolio-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 220px 14px 62px 14px;
 }
  
 #portfolio .project-item {
