@@ -24,14 +24,14 @@ Organizamos as branches para serem guardadas as versões do projeto
 - [x] design personalizado
 - [x] responsividade
 - [x] favicon
-- [ ] páginas para conteúdos
+- [x] páginas para conteúdos
 - [ ] botão topo: aperfeiçoar círculo
 
 #### 💻Seções
 
 - [x] presentation: imagem ao fundo hospedada
 - [x] description
-- [ ] projects
+- [x] projects
 - [ ] footer : estilizar conforme abc
 
 #### 💻Copies
