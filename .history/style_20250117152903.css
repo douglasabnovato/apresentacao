@@ -34,8 +34,8 @@ p {
   cursor: pointer;
 
   position: fixed;
-  right: .7rem;
-  bottom: .7rem;
+  right: 2.5rem;
+  bottom: 2.5rem;
 
   line-height: 0;
 
@@ -46,15 +46,9 @@ p {
   transform: translateY(100%);
 
   z-index: 10;
-  color: #FFFFFF;
+  color: #820909;
   font-weight: bold;
   font-size: 16px;
-
-  padding-block: 22px;
-  padding-inline: 16px; 
-  background-color: #820909; 
-  border: 2px solid #FFFFFF;
-  border-radius: 50px;
 }
 
 .back-to-top.show {
@@ -358,7 +352,7 @@ p {
 footer {
   text-align: center;
   padding: 120px 12px;
-  background-color: rgba(6, 0, 0, 0.151);
+  background-color: rgba(3, 3, 3, 0.151);
   color: #610609e9;
   font-weight: bold;
 }
@@ -367,32 +361,18 @@ footer p{
   color: #610609e9;
 }
 
-footer .footer-logo-abc { 
-  padding-bottom: 30px;
-  width: 110px;
-}
-
-footer p .footer-titulo-1{ 
-  font-size: 16px;
-}
-
-footer p .footer-titulo-2{ 
-  font-size: 14px;
-}
-
 footer p a { 
   color: #520407e9;  
   text-decoration: none;
   font-weight: bold;
 }
 
-footer p .footer-site{ 
-  font-size: 14px;
+footer .footer-logo-abc { 
+  width: 90px;
 }
 
 footer .footer-futebol-abc { 
-  padding-top: 60px;
-  width: 140px;
+  width: 320px;
 }
 
 @keyframes text_reveal {
