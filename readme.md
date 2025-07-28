@@ -33,6 +33,7 @@ Organizamos as branches para serem guardadas as versões do projeto
 - [x] description
 - [x] projects
 - [ ] Imagens dos programas de relacionamento: prime, abcx 
+- [ ] Imagens institucionais
 - [x] footer : estilizar conforme abc
 
 #### 💻Copies
